@@ -1,0 +1,13 @@
+PCA: Principal component analysis
+- it is used to speed up learning time of learning algorithm, it reduce dimension representaiton of data like from 10000 to 1000 dimensional feature vectors, 10x saving.
+it maps x -> z, so this mapping does feature scaling, mean normalization, and ureduce algorithm. only on training set. 
+- this mapping could be applied to cross validation and test sets. x cv and x test. 
+
++ Compression: reduce memory or disk needed to store data / speed up learning algorithm (in order to choose k, what is percent of variance retian - difficult to choose k) - to compress the data so it takes up less computer memory/disk space
+
++ Visualization ( k = 2,3 - we usually know how to plot only two dimensional data or three dimensional data)
+
+- bad use of pca : for overfitting, use instead regularization to preventing overfitting, 
+- good use of pca - to speed up the learning algorithm
+
+first do the whole original/raw data x without using pca. only if that does not do what you want, then implement pca and consider using z. 
