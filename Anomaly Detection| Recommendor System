@@ -1,0 +1,12 @@
+Anomaly Detection: 
+- Given many data points, we may want to determine which ones vary significantly from the average. For example, we may want to detect defects or anomalies in manufacturing. 
+- it is widely used in fraud detection.
+
+
+
+
+
+Recommended System:
+- Recommender systems look at patterns of activities between different users and different products to produce these recommendations
+- recommender algorithms like collaborative filtering algorithms and low-rank matrix factorization
+- it is used by companies like Amazon, Netflix, and Apple to recommend products to their users.
